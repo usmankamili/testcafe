@@ -11,6 +11,7 @@ test.before(async t=>{
     const checkOutButton = Selector('a.nav-link.btn-primary')
     const termsCheckbox = Selector('#terms')
 
+    
     await t.expect(checkOutButton.exists).ok()
     await t.expect(termsCheckbox.exists).notOk()
 })
