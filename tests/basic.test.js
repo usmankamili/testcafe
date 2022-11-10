@@ -18,7 +18,7 @@ fixture `Getting started with testcafe`
 
 
 
-test(`My first testcafe test` , async t => {
+test(`My first testcafe git test` , async t => {
     const developer_name = Selector('#developer-name') 
     const submitButton = Selector('#submit-button') 
     const articleText = Selector('#article-header') 
