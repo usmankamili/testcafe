@@ -1,0 +1,5 @@
+{
+    "screenshotPath": "./screenshot",
+    "screenshotPathPattern": "${DATE}_${TIME}/${FIXTURE}_${TEST}.png",
+  
+}
