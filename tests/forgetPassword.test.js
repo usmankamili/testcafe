@@ -6,7 +6,6 @@ fixture('Forget password')
 test('User clicks' , async t => {
     const signInButton = Selector('#signin_button')
     await t.click(signInButton)
-
     const loginForm = Selector('#login_form')
 
     await t.expect(loginForm.exists).ok();
